@@ -43,3 +43,5 @@ age ="Francisco"
 print (firstname, age) 
 
 addres: str   ="Direccion aleatoria"
+addres=25 
+addres = False #Los booleans son sensibles a las mayus.
