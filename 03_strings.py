@@ -25,3 +25,31 @@ print (c)
 print (d)
 print (e)
 print (f)
+
+#Division 
+nombre= input("Cual es su nombre ")
+language_slice = language [1:3]
+print(language_slice)
+
+language_slice = language [0:]
+print(language_slice)
+
+language_slice = language [-2]
+print(language_slice)
+
+language_slice = language [::-3]
+print(language_slice)
+
+language_slice = language [0:6:2]
+print(language_slice)
+
+#Funciones 
+
+print(language.capitalize())
+print(language.upper())
+print(language.count("t"))
+print(language.isnumeric())
+print(language.isprintable())
+print(language.lower())
+print(language.upper().isupper())
+print(language.lower().startswith("Py"))
