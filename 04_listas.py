@@ -7,7 +7,7 @@ print(len(my_list))
 
 my_list= [35, 24, 62, 40, 30, 30, 17]
 print(len(my_list), my_list)
-my_other_list=[29,1.77, "Francisco", "Contreras"]
+my_other_list=[29,177, "Francisco", "Contreras"]
 
 print(type(my_other_list))
 print (my_other_list[0])
@@ -31,11 +31,18 @@ print(my_other_list)
 my_list.pop()
 print(my_list)
 print (my_list.pop())
-
+"""
 del my_list[2]
 print(my_list)
 my_list.clear()
-print(my_list)
+print(my_list)"""
+
+my_other_list.reverse()
+print(my_other_list)
+
+my_list.sort()
+print (my_list)
+print (my_other_list)
 #Ejemplo de dinamismo de tipado 
 my_list= "Python cambia tipado"
 
